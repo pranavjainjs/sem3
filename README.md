@@ -6,6 +6,8 @@ If you are pursuing CSE from IIT Guwahati, these might help you as well.
 
 CSEA would conduct a comprehensive academic talk and provide other materials (including previous year questions) as and when required.
 
+Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive.google.com/drive/folders/1-QFZeJuliaK__VQyYtNdI1P7eLEHkWtg)
+
 ### A few words of advice
  - Visit homepages of profs, atleast of those who teach you.
  - Note the areas in which they are working.
