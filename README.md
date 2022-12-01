@@ -10,7 +10,7 @@ Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive
 
 ### A few words of advice
  - Visit homepages of profs, atleast of those who teach you.
- - Note the areas in which they are working.
+ - Look at their publications and interests.
  - Google anything you do not understand. 
  - There are NPTEL courses for everything.
 
