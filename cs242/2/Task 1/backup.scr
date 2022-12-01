@@ -1,0 +1,64 @@
+#!/bin/bash
+
+copy_from="/home/pranav/"   # the files which are to be backed up are in this directory
+input=$1		 # input file which contains list of files to be backed up
+copy_to=$2		 # directory where duplicated files are stored
+count=0			 # count variable notes the number of files in the <backup> folder
+num_of_files=0	 # tracks the number of files in the the input file
+
+cd $copy_to 
+
+if [ -d backup ]; then		# were the files previously backed up?
+	rm -r backup			# yes, we need to update the older backup
+fi
+
+mkdir backup	 # a directory is created to keep the backup files
+cd $copy_from
+
+if test "$#" -ne 2; then   # are 2 paramenters entered in command line 
+	{
+		if test "$#" -eq 0; then   # np, no parameter is entered
+			echo "enter parameters"
+		elif test "$#" -eq 1; then		# no, one parameter is entered
+			echo "one paramener too few"
+		elif test "$#" -eq 3; then
+			echo "one parameter too many"	# no, three parameters are entered
+		else 
+			echo "Only 2 parameters are allowed"   # no, more than three paramenters are entered
+		fi
+		exit	# abort the operation
+	}
+else 		# yes, 2 parameters are entered
+	{
+		if test -f ${input}; then	# does input.txt file exist?
+			while read line; do		# yes,
+				cp "${copy_from}/${line}" "${copy_to}/backup/${line}.bak"	# now the files are copied
+				if test -f "${copy_to}/backup/${line}.bak"; then 	# do the duplicated files exist?
+					echo "${line} backed up"						# if yes, print("file backed up")
+				fi
+				num_of_files=$((num_of_files+1))				# keeps track of the number of copies made
+			done < "${copy_from}/${input}"
+		else	# required file does not exist
+			{
+				echo "there is no such input file"
+				exit	# operation aborted
+			}
+		fi
+	}
+fi
+
+cd "${copy_to}/backup" 
+
+while read line; do
+	if test -f "${line}.bak"; then 	# do the duplicated files exist?
+		count=$((count+1))			# if yes, the count of files is maintained
+	fi
+done < "$copy_from/${input}"
+
+if [ $count -eq $num_of_files ]; then     # is the number of files in input file equal to the number of files in backup folder?
+	echo "all $count files are successfully duplicated."   # yes, all files were duplicated. congratulations!
+	echo "the duplicated files are - "
+	echo *		# print all files in <backup> folder
+else
+	echo -e "\nsome or all files were not backed up. run the program again or debug."		# no, the backup operation was unsuccessful
+fi

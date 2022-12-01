@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{amsmath} % amsmath package facilitates writing mathematical formula.
+\usepackage{hyperref} % hyperref package allows to create internal and external references.
+\hypersetup{colorlinks=true, linkcolor=blue}
+
+% this is the introductory section of the document.
+% it contains document title, today's date and name of author.
+\title{Hello World!}
+\date{November 15, 2022}
+\author{Pranav Jain}
+
+% document begins here.
+\begin{document}
+
+    % \maketitle command generates a title on a separate title page.
+    \maketitle
+    % to remove page numbering
+    \thispagestyle{empty}
+    \section{Getting Started}
+
+    \noindent\textbf{Hello World!}
+    Today, I am learning \LaTeX. \LaTeX\ is a great program for writing
+    math. I can write in line math such as $ a^2+b^2=c^2 $. I can also give equations
+    their own space:
+
+    % Pythagoras theorem enclosed in equation environment
+    \begin{equation}
+        \gamma^2+\theta^2=\omega^2 \label{eq:Pythagoras}
+    \end{equation}
+
+    \noindent
+    "Maxwell's equations" are named for James Clark Maxwell and are as follows:
+
+    % power of amsmath package is utilised here.
+    % to align the equations and names of equations.
+    \begin{align}
+        \vec{\nabla} \cdot \vec{E} \quad &= 
+        \quad\frac{\rho}{\epsilon_0} &&
+        \text{Gauss's Law} 
+        \label{eq:Gauss} \\
+        \vec{\nabla} \cdot \vec{B} \quad &= 
+        \quad 0 &&
+        \text{Gauss's Law for Magnetism} 
+        \label{eq:GaussMag} \\
+        \vec{\nabla} \times \vec{E} \quad &= 
+        \quad-\frac{\partial{\vec{B}}}{\partial{t}} &&
+        \text{Faraday's Law of Induction} 
+        \label{eq:Faraday} \\ 
+        \vec{\nabla} \times \vec{B} \quad &=
+        \quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}} + \vec{J}\right) &&
+        \text{Ampere's Circuital Law} 
+        \label{eq:Ampere}
+    \end{align}
+
+    % \quad adds horizontal spacing and enhances spacing.
+    % \vec introduces the vector symbol over a character.
+    % \cdot and \times add . and x symbols respectively.
+    % \partial is used to print partial derivative symbols.
+    % & , && help in alignment.
+
+    % power of hyperref package is utilised here to create references to the respective equations.
+    % links are referred using \ref{eq:LINK} tag
+    Equations \ref{eq:Gauss}, \ref{eq:GaussMag}, \ref{eq:Faraday}, and \ref{eq:Ampere} are some of the mostimportant in Physics.
+
+    % power of amsmath package is utilised here to create the matrix and vectors.
+    \section{What about matrix equations?}
+    \[   
+        \begin{pmatrix}                                                 % gives curly brackets
+            a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\ 
+            a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\ 
+            \vdots & \vdots & \ddots & \vdots \\ 
+            a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+        \end{pmatrix}
+        \begin{bmatrix}                                                 % gives square brackets
+            v_1 \\
+            v_2 \\
+            \vdots \\
+            v_n
+        \end{bmatrix}
+        =
+        \begin{matrix}                                                  % no brackets
+            w_1 \\
+            w_2 \\
+            \vdots \\
+            w_n
+        \end{matrix}
+    \]
+        
+    % \vdots, \cdots, \ddots print the required ellipsis.
+\end{document}

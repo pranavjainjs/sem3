@@ -1,0 +1,123 @@
+\documentclass{article}
+
+%packages used in this document
+\usepackage{amsmath}
+
+\begin{document}
+
+    % to remove page numbering
+    \thispagestyle{empty}
+
+    % \[ \] is used to create an environment which centers the text inside it.
+
+    \[ 
+        \iiint\limits_V f(x,y,z)\,dV = F 
+    \]
+    
+    \[ 
+        \frac{dx}{dy} = 
+        x^{\prime} = 
+        \lim_{h\to0} \frac {f\left(x+h\right)-f\left(x\right)} {h} 
+    \]
+    % \prime used to print ' character.
+    
+    \[
+        \left|x\right| = 
+        \begin{cases}
+            -x, & \quad{\text{if } x < \text{0}} \\ 
+            x, & \quad{\text{if } x \geq \text{0}}
+        \end{cases}
+    \]
+    % cases with grouping braces splits the condition into two lines.
+    
+    \[ 
+        F\left(x\right) = A_0 +
+        \displaystyle\sum_{n\mathop{=}1}^N
+        \left\lbrack 
+            A_n\cos\left(\frac{2\pi nx}{P}\right) + 
+            B_n\sin\left(\frac{2\pi nx}{P}\right)
+        \right\rbrack 
+    \]
+    
+    \[
+        \displaystyle\sum_{n} \frac{1}{n^s} = \prod_{p} \frac{1}{1-\frac{1}{p^s}}
+    \]
+    % \frac used to print fractions.
+
+    \[ 
+        m\ddot{x} + c\dot{x} + kx = 
+        F_0\sin\left(2\pi ft\right) 
+    \]  
+    % \dot and \\ddot print dot(s) over symbols.
+    
+    \[ 
+        \begin{split}
+            f(x)\quad   &= \quad x^2 + 3x + 5x^2 +8 +6x\\
+                        &= \quad 6x^2 +9x +8\\
+                        &= \quad x(6x+9)+8
+        \end{split} 
+    \]
+    % & used to adjust alignment.
+    % \quad used to adjust spacing.
+    
+    \[
+        X = 
+        \frac{F_0}{k} 
+        \frac{1}{\sqrt{\left(1-r^2\right)^2 + \left(2\zeta r\right)^2}} 
+    \]
+    % \sqrt encapsulates the text under radical symbol.
+    
+    \[ G_{\mu\nu}\equiv R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu} \]
+    
+    \[ 
+        6\text{CO}_2+6\text{H}_2\text{O} 
+        \to 
+        \text{ C}_6\text{H}_{12}\text{O}_6+6\text{O}_2
+    \]
+    % \text used to prevent the letters from being italicized.
+    % \to prints arrow symbol.
+    
+    \[ 
+        \text{SO}_4^{2-} + \text{Ba}^{2+}
+        \to
+        \text{BaSO}_4 
+    \]
+    
+    \[   
+        \begin{pmatrix}
+            a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\ 
+            a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\ 
+             \vdots & \vdots & \ddots & \vdots \\ 
+            a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+        \end{pmatrix}
+        \begin{pmatrix}
+            v_1 \\
+            v_2 \\
+            \vdots \\
+            v_n
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            w_1 \\
+            w_2 \\
+            \vdots \\
+            w_n
+        \end{pmatrix} 
+    \]
+    % \vdots, \cdots, \ddots print the required ellipsis.
+    % \\ used to print the next row.
+    % & used to adjust alignment.
+    
+    \[ 
+        \frac{\partial \textbf{u}}{\partial t} + 
+        \left(\textbf{u}\cdot\nabla\right)\textbf{u} - 
+        \nu\nabla^2\left(\textbf{u}\right) = 
+        -\nabla \textbf{h} 
+    \] 
+    % \textbf makes the closed text bold.
+    
+    \[ 
+        \alpha A\beta B\gamma\Gamma\delta\Delta\pi\Pi\omega\Omega 
+    \]
+    
+\end{document}
