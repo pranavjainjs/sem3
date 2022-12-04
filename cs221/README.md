@@ -6,3 +6,5 @@ Course Instructor - [Chandan Karfa](http://iitg.ac.in/ckarfa) [Hemangee Kapoor](
 
 - Kohavi, for pre-midsem
 - Mano, for post-midsem
+
+[Kohavi Solutions](https://www.studocu.com/in/document/delhi-technological-university/basic-electrical-engineering/kohavi-solution-manual-pdf/7403479)
