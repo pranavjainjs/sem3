@@ -11,7 +11,9 @@ Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive
 ### A few words of advice
  - Visit homepages of profs, atleast of those who teach you.
  - Look at their publications and interests.
- - Learn writing concise answers. [here](https://www.cse.iitd.ac.in/~bagchi/courses/COL202_19-20/guidelines-for-writing-a-proof-2019.html)
+ - Learn writing concise answers.
  - Google anything you do not understand. 
  - There are NPTEL courses for everything.
 
+### Other notable reads 
+ - [Guidelines for writing a good proof](https://www.cse.iitd.ac.in/~bagchi/courses/COL202_19-20/guidelines-for-writing-a-proof-2019.html)
