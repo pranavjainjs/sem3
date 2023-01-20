@@ -17,3 +17,4 @@ Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive
 
 ### Other notable reads 
  - [Guidelines for writing a good proof](https://www.cse.iitd.ac.in/~bagchi/courses/COL202_19-20/guidelines-for-writing-a-proof-2019.html)
+ - [Writing Emails to Professors and TAs](https://www.bu.edu/com/files/2021/11/WC_emails_to_profs_and_TAs.pdf)
