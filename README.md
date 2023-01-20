@@ -1,16 +1,16 @@
 # 3rd semester IITG CSE
 
-This repo contains a few resources that many of my batchmates and I found useful in the odd semester - 2022, at IIT Guwahati.
+This repo contains a few resources that I found useful in the odd semester - 2022, at IIT Guwahati.
 
 If you are pursuing CSE from IIT Guwahati, these might help you as well.
 
-CSEA would conduct a comprehensive academic talk and provide other materials (including previous year questions) as and when required.
+CSEA would conduct a comprehensive academic talk and provide other materials (including previous year questions) when the semester starts.
 
 Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive.google.com/drive/folders/1-QFZeJuliaK__VQyYtNdI1P7eLEHkWtg)
 
 ### A few words of advice
  - Visit homepages of profs, atleast of those who teach you.
- - Look at their publications and interests.
+ - Look at their publications and research areas.
  - Learn writing concise answers.
  - Google anything you do not understand. 
  - There are NPTEL courses for everything.
