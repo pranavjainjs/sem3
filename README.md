@@ -16,5 +16,5 @@ Other resources [1](https://github.com/ktk53x/Course_Material) [2](https://drive
  - There are NPTEL courses for everything.
 
 ### Other notable reads 
- - [Guidelines for writing a good proof](https://www.cse.iitd.ac.in/~bagchi/courses/COL202_19-20/guidelines-for-writing-a-proof-2019.html)
- - [Writing Emails to Professors and TAs](https://www.bu.edu/com/files/2021/11/WC_emails_to_profs_and_TAs.pdf)
+ - Guidelines for writing a good proof [1](https://www.cse.iitd.ac.in/~bagchi/courses/COL202_19-20/guidelines-for-writing-a-proof-2019.html) [2](https://deopurkar.github.io/teaching/algebra1/cheng.pdf)
+ - Writing Emails to Professors and TAs [1](https://www.bu.edu/com/files/2021/11/WC_emails_to_profs_and_TAs.pdf) [2](https://mitcommlab.mit.edu/eecs/commkit/email/) [3](https://urop.mit.edu/students/resources/approaching-faculty/)
